@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Admin</title>
+	<style>
+	body{
+	
+    font-family: Arial,Times;
+    }
+header{
+	background-color:#abecf5;
+	color: black;
+	width:80%;
+	padding:5px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    border-width: 20px;
+    border-color:#0ad5f0 ;
+    border-style: bold;
+}
+h1{
+	font-size: 1.8em;
+	color: black;
+			text-align:center;
+			font-size: 35px;
+			font-weight: bold;
+			text-shadow: 2px 2px lightgray;
+			
+}
+div[id="Admin_details"] {
+	box-sizing: border-box;
+	width:20%;
+	margin-right: 50px;
+	margin-left: 75px;
+	margin-bottom: 10px;
+	border: 8px double #2554C7;
+				float:left;
+				background-color: #FFFFCC;
+}
+
+div[id="Departments"] {
+	box-sizing: border-box;
+	width:20%;
+	margin-right: 50px;
+	margin-bottom: 10px;
+	border: 8px double #2554C7;
+				float:left;
+				background-color: #FFFFCC;
+}
+div[id="Schools"] {
+	box-sizing: border-box;
+	width:20%;
+	margin-right: 50px;
+	margin-bottom: 10px;
+	border: 8px double #2554C7;
+				float:left;
+				background-color: #FFFFCC;
+}
+div[id="Sections"] {
+	box-sizing: border-box;
+	width:20%;
+	margin-right: 50px;
+	margin-bottom: 10px;
+	border: 8px double #2554C7;
+				float:left;
+				background-color: #FFFFCC;
+}
+div[id="teach"] {
+	box-sizing: border-box;
+	width:20%;
+	margin-right: 50px;
+	margin-bottom: 10px;
+	margin-left: 75px;
+	border: 8px double #2554C7;
+				float:left;
+				background-color: #FFFFCC;
+}
+/*div[id="nonteach"] {
+	box-sizing: border-box;
+	width:20%;
+	margin-right: 50px;
+	margin-bottom: 10px;
+	border: 8px double #2554C7;
+				float:left;
+				background-color: #FFFFCC;
+}*/
+div[id="Expenses"] {
+	box-sizing: border-box;
+	width:20%;
+	margin-right: 50px;
+	margin-bottom: 10px;
+	border: 8px double #2554C7;
+				float:left;
+				background-color: #FFFFCC;
+}
+div[id="Casual_leave"] {
+	box-sizing: border-box;
+	width:20%;
+	margin-right: 50px;
+	margin-bottom: 10px;
+	border: 8px double #2554C7;
+				float:left;
+				background-color: #FFFFCC;
+}
+div[id="Complaints"] {
+	box-sizing: border-box;
+	width:20%;
+	margin-right: 50px;
+	margin-bottom: 10px;
+	border: 8px double #2554C7;
+				float:left;
+				background-color: #FFFFCC;
+}
+/*div[id="Address"] {
+	box-sizing: border-box;
+	width:20%;
+	margin-right: 50px;
+	margin-bottom: 10px;
+	border: 8px double #2554C7;
+				float:left;
+				background-color: #FFFFCC;
+}
+div[id="Education"] {
+	box-sizing: border-box;
+	width:20%;
+	margin-right: 50px;
+	margin-bottom: 10px;
+	border: 8px double #2554C7;
+				float:left;
+				background-color: #FFFFCC;
+}
+div[id="Previous_experience"] {
+	box-sizing: border-box;
+	width:20%;
+	margin-right: 50px;
+	margin-bottom: 10px;
+	border: 8px double #2554C7;
+				float:left;
+				background-color: #FFFFCC;
+}
+	div[id="account_details"] {
+	box-sizing: border-box;
+	width:20%;
+	margin-right: 50px;
+	margin-bottom: 10px;
+	
+	border: 8px double #2554C7;
+				float:left;
+				background-color: #FFFFCC;
+}
+/*div[id="Family_details"] {
+	box-sizing: border-box;
+	width:20%;
+	margin-right: 50px;
+	margin-bottom: 10px;
+	border: 8px double #2554C7;
+				float:left;
+				background-color: #FFFFCC;
+}
+div[id="Appointment"] {
+	box-sizing: border-box;
+	width:20%;
+	margin-right: 50px;
+	margin-bottom: 10px;
+	margin-left: 75px;
+	border: 8px double #2554C7;
+				float:left;
+				background-color: #FFFFCC;
+}
+div[id="Nominee_details"] {
+	box-sizing: border-box;
+	width:20%;
+	margin-right: 50px;
+	margin-bottom: 10px;
+	border: 8px double #2554C7;
+				float:left;
+				background-color: #FFFFCC;
+}
+div[id="PromotionIncre"] {
+	box-sizing: border-box;
+	width:20%;
+	margin-right: 50px;
+	margin-bottom: 10px;
+	border: 8px double #2554C7;
+				float:left;
+				background-color: #FFFFCC;
+}
+div[id="Medical_coverage"] {
+	box-sizing: border-box;
+	width:20%;
+	margin-right: 50px;
+	margin-bottom: 10px;
+	border: 8px double #2554C7;
+				float:left;
+				background-color: #FFFFCC;
+}*/
+/*div[id="RemoveEmployee"] {
+	box-sizing: border-box;
+	width:20%;
+	margin-right: 50px;
+	margin-bottom: 10px;
+	border: 8px double #2554C7;
+				float:left;
+				background-color: #FFFFCC;
+}
+
+div[id="Employeefeedback"] {
+	box-sizing: border-box;
+	width:20%;
+	margin-right: 50px;
+	margin-bottom: 10px;
+	border: 8px double #2554C7;
+				float:left;
+				background-color: #FFFFCC;
+}
+div[id="Employeetraining"] {
+	box-sizing: border-box;
+	width:20%;
+	margin-right: 50px;
+	margin-bottom: 10px;
+	border: 8px double #2554C7;
+				float:left;
+				background-color: #FFFFCC;
+}
+div[id="Leavegrant"] {
+	box-sizing: border-box;
+	width:20%;
+	margin-right: 50px;
+	margin-bottom: 10px;
+	border: 8px double #2554C7;
+				float:left;
+				background-color: #FFFFCC;
+}*/
+div[id="Logout"] {
+	box-sizing: border-box;
+	width:10%;
+	margin-right: 50px;
+	margin-bottom: 10px;
+	border: 8px double #2554C7;
+				float:right;
+				background-color: #FFFFCC;
+				margin-top: 40px;
+}
+a {
+	color:#800db5;
+	text-decoration: none;
+}
+/* unvisited link */
+a:link {
+  color: green;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: #780478;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+</style>
+	</head>
+
+ <body background="https://i.ytimg.com/vi/4l6J5jhRgos/maxresdefault.jpg" style="background-size: cover;background-position: center;background-attachment: fixed;">
+  	<header>
+		<hgroup>
+            <h1>NATIONAL INSTITUTE OF TECHNOLOGY ANDHRA PRADESH</h1>
+        </hgroup>
+    </header>
+     <p><a href="adminpro.html">
+		
+		<div id="Admin_details">
+		
+			<img src="Permenant1.jfif" style="width:110px;height:100px;" align="left" />
+		
+			<h2 style="margin-left:120px">Admin_details</h2>
+		
+		</div></a></p>
+   		<p><a href="departments.html">
+		
+		<div id="Departments">
+		
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYryJ1YnCUapuvKxTVmOFHl1A_Oo2fByyBww&usqp=CAU" style="width:110px;height:100px;" align="left" />
+		
+			<h2 style="margin-left:120px">Departments</h2>
+		
+		</div></a></p>
+		<p><a href="schools.html">
+		
+		<div id="Schools">
+		
+			<img src="https://media.gettyimages.com/vectors/science-symbols-and-icons-vector-id467205364" style="width:110px;height:100px;" align="left" />
+		
+			<h2 style="margin-left:120px">Schools</h2>
+		
+		</div></a></p>
+		<p><a href="sections.html">
+		
+		<div id="Sections">
+		
+			<img src="https://th.bing.com/th/id/R62ef6722ec463d0793c8f21221e0d8ee?rik=EyV8ZXAC4d4dfw&riu=http%3a%2f%2fimages.all-free-download.com%2fimages%2fgraphiclarge%2fteaching_aids_01_vector_154590.jpg&ehk=GG0auvYt4133r6aYVkq30Lfi70G9qbPwSj4woOQUFdo%3d&risl=&pid=ImgRaw" style="width:110px;height:100px;" align="left" />
+		
+			<h2 style="margin-left:120px">Sections</h2>
+		
+		</div></a></p>
+		<p><a href="acc.html">
+		<div id="teach">
+		
+			<img src="https://thumbs.dreamstime.com/b/text-sign-showing-benefits-conceptual-photo-hike-allowance-senior-employees-company-written-yellow-sticky-note-paper-114748054.jpg" style="width:110px;height:100px;" align="left" />
+		
+			<h2 style="margin-left:120px">Leaves and Allowances</h2>
+		
+		</div></a></p>
+		<!--<p><a href="teach.html">
+		<div id="nonteach">
+		
+			<img src="https://th.bing.com/th/id/OIP.NHp1_b8UIMpZqh_0tu_iQQHaFx?pid=ImgDet&rs=1" style="width:110px;height:100px;" align="left" />
+		
+			<h2 style="margin-left:120px">Non-Teaching Staff</h2>
+		
+		</div></a></p>-->
+		<p><a href="exp.html">
+		<div id="Expenses">
+		
+			<img src="eduexp.jfif" style="width:110px;height:100px;" align="left" />
+		
+			<h2 style="margin-left:120px">Expenses</h2>
+		
+		</div></a></p>
+		
+		<!--<p><a href="https://www.wikipedia.org">
+		
+		<div id="account_details">
+		
+			<img src="accountdts.jfif" style="width:110px;height:100px;" align="left" />
+		
+			<h2 style="margin-left:120px">Account details</h2>
+		
+		</div></a></p>
+		<p><a href="https://www.wikipedia.org">
+		
+		<div id="Family_details">
+		
+			<img src="familydts.jfif" style="width:110px;height:100px;" align="left" />
+		
+			<h2 style="margin-left:120px">Family details</h2>
+		
+		</div></a></p>
+		<p><a href="https://www.wikipedia.org">
+		
+		<div id="Appointment">
+		
+			<img src="appointment.jfif" style="width:110px;height:100px;" align="left" />
+		
+			<h2 style="margin-left:120px">Appointment details</h2>
+		
+		</div></a></p>
+		<p><a href="https://www.wikipedia.org">
+		
+		<div id="Nominee_details">
+		
+			<img src="nominee.jfif" style="width:110px;height:100px;" align="left" />
+		
+			<h2 style="margin-left:120px">Nominee details</h2>
+		
+		</div></a></p>
+		<p><a href="https://www.wikipedia.org">
+		
+		<div id="PromotionIncre">
+		
+			<img src="salaryincre.jfif" style="width:110px;height:100px;" align="left" />
+		
+			<h2 style="margin-left:120px">Promotions Increments</h2>
+		
+		</div></a></p>
+		<p><a href="https://www.wikipedia.org">
+		<div id="Medical_coverage">
+		
+			<img src="medicalcvg.jfif" style="width:110px;height:100px;" align="left" />
+		
+			<h2 style="margin-left:120px">Medical coverage</h2>
+		
+		</div></a></p>
+		
+		
+		<p><a href="https://www.wikipedia.org">
+		<div id="EduExpenses">
+		
+			<img src="educaexp.jpg" style="width:110px;height:100px;" align="left" />
+		
+			<h2 style="margin-left:120px">Educational Expenses</h2>
+		
+		</div></a></p>
+		<p><a href="https://www.wikipedia.org">
+		<div id="Attendence">
+		
+			<img src="atten.jfif" style="width:110px;height:100px;" align="left" />
+		
+			<h2 style="margin-left:120px">Attendence</h2>
+		
+		</div></a></p>
+		<p><a href="https://www.wikipedia.org">
+		<div id="Meetings">
+		
+			<img src="meetings.jpg" style="width:110px;height:100px;" align="left" />
+		
+			<h2 style="margin-left:120px">Meetings</h2>
+		
+		</div></a></p>
+		<p><a href="https://www.wikipedia.org">
+		<div id="AddEmployee">
+		
+			<img src="add.jfif" style="width:110px;height:100px;" align="left" />
+		
+			<h2 style="margin-left:120px">Add Employee</h2>
+		
+		</div></a></p>
+		<p><a href="https://www.wikipedia.org">
+		<div id="RemoveEmployee">
+		
+			<img src="https://cdn4.iconfinder.com/data/icons/hr-recruitment-management-part-3/360/user_remove_profile_delete_declined-512.png" style="width:110px;height:100px;" align="left" />
+		
+			<h2 style="margin-left:120px">Remove Employee</h2>
+		
+		</div></a></p>-->
+		
+		<!--<p><a href="https://www.wikipedia.org">
+		<div id="Employeefeedback">
+		
+			<img src="feedback.jfif" style="width:110px;height:100px;" align="left" />
+		
+			<h2 style="margin-left:120px">Employee Feedback</h2>
+		
+		</div></a></p>
+		<p><a href="https://www.wikipedia.org">
+		<div id="Employeetraining">
+		
+			<img src="Training.jpg" style="width:110px;height:100px;" align="left" />
+		
+			<h2 style="margin-left:120px">Employee training</h2>
+		
+		</div></a></p>
+<p><a href="https://www.wikipedia.org">
+		<div id="Leavegrant">
+		
+			<img src="leavegrant.png" style="width:110px;height:100px;" align="left" />
+		
+			<h2 style="margin-left:120px">Granting Leaves</h2>
+		
+		</div></a></p>-->
+		<p><a href="https://www.wikipedia.org">
+		<div id="Casual_leave">
+		
+			<img src="casualleave.jfif" style="width:110px;height:100px;" align="left" />
+		
+			<h2 style="margin-left:120px">Application for Leave</h2>
+		
+		</div></a></p>
+		
+         <p><a href="https://www.wikipedia.org">
+		<div id="Complaints">
+		
+			<img src="complaintsrcd.png" style="width:110px;height:100px;" align="left" />
+		
+			<h2 style="margin-left:120px">Complaints Received</h2>
+		
+		</div></a></p>
+		<div id="Logout">
+		<p><a href="admin.html">
+			<img src="logout.jfif" style="width:60px;height:55px;" align="left" />
+		<h3 style="margin-left:50px">Logout</h3>
+		
+		</div></a></p>
+
+	</body></html>
